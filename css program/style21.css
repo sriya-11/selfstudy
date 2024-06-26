@@ -1,0 +1,18 @@
+div{
+    height: 
+    100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:white;
+    border: 10px solid cornflowerblue;
+    border-top:10px solid brown;
+    animation: animate 3s ease-in 0s 20 normal;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

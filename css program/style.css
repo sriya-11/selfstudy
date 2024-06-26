@@ -1,0 +1,41 @@
+h1{
+    color: blueviolet;
+}
+#one{
+    color: #f00;
+    font-size:large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+}
+button{
+    color: blue;
+    background-color: aqua;
+}
+body{
+    background-color:rgb(0,255,255);
+}
+#roll1{
+    color: red;
+    text-decoration:underline;
+    text-align: center;
+}
+#roll2{
+    color: black;
+    font-weight:lighter;
+}
+.myclass{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+#two{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+}
+#hu{
+    font-size:  25px; ;
+}
+#hi{
+    font-size: 15px;
+}

@@ -1,0 +1,15 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;/*horizontal align*/
+    align-items: center;/*vertical align*/
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    align-self: flex-start;
+}
+/*align-self[to apply the items] has more pririty than align-items[to apply the container]*/

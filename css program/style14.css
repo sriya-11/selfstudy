@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+div{
+    height:50px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#container{
+    height: 300px;
+    width: 500px;
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:center;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    align-content: center;
+    flex-shrink: 2;
+}
+#box2{
+    height: 200px;
+}
+#box4{
+    align-self:center;
+}
+/*flexbox direction-row(left to right) and also by default , row-reverse(right to left), column(top to bottom) , column - reverse(bottom to top)
+/*justify-content - flex-start,flex-end,center
+and space-around,space-between,space-evenly
+flex-wrap , align-items , align-content */

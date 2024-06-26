@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    /*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;*/
+    transition: all 5s ease-in 1s;
+    position:absolute;
+    transform: translate(20px);
+}
+/*div:active{
+    background-color: red;
+    color: chartreuse;
+    border: 2px dashed rgb(68, 31, 37);
+}
+/*div:hover=instantly change, to move curser and change the color and background color*/
+div:hover{
+    /*height: 200px;
+    width: 200px;
+    background-color: red;
+    color: chartreuse;
+    border: 1px dashed pink;
+    font-size: 20px;
+    transform: scale(2);*/
+    transform: skew(30deg)
+}
+/*transition- property-name|duration|timing-function|delay
+transform - rotate an object
+transform-scale(x,y)
+transform-translate(20px) */

@@ -1,0 +1,14 @@
+ul{
+    background-color:rgb(219, 140, 140);
+    color: white;
+    display: flex;/*direction-row */
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color:white;
+    background-color: brown;
+}
+li{
+    list-style-type: none;
+}

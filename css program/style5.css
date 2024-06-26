@@ -1,0 +1,43 @@
+#di{
+    height: 20px;
+    background-color: pink;
+    width: 80px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: red;
+    padding: 10px;
+}
+p{
+    height: 50px;
+    width: 900px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    border-width: 3px;
+    border-style: dotted;
+    border-color: blueviolet;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#d{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align:left;
+    border-radius: 5px;
+    margin:25px;
+    
+}
+/* border-width|style|color */
+/* padding  and margin-top|right|bottom|left */

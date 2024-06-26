@@ -1,0 +1,30 @@
+#io{
+    background-color: blueviolet;
+    display: inline;
+    visibility: hidden;
+}
+div{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    display: inline;
+}
+/*display-inline/block/inline-block/none
+inline-block-to set margin and padding property
+display-none - to remove from document
+visibility-hidden -to make space and remove from document
+rgba-red green blue alpha channel(opacity)*/
+span{
+    background-color: brown;
+}
+#hi{
+    background-color: aqua;
+}
+#hu{
+    background-color: bisque;
+    display: none;
+}
+#ha{
+    background-color: pink;
+}
